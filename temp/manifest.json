@@ -6,9 +6,9 @@
   "packageName": "devsecopsbot",
   "developer": {
     "name": "Safaricom PLC",
-    "websiteUrl": "https://508d-2c0f-fe38-2402-837c-5d88-d476-18a0-67b4.ngrok.io",
-    "privacyUrl": "https://508d-2c0f-fe38-2402-837c-5d88-d476-18a0-67b4.ngrok.io/privacy.html",
-    "termsOfUseUrl": "https://508d-2c0f-fe38-2402-837c-5d88-d476-18a0-67b4.ngrok.io/tou.html"
+    "websiteUrl": "https://b68b-2c0f-fe38-2402-837c-5d88-d476-18a0-67b4.ngrok.io",
+    "privacyUrl": "https://b68b-2c0f-fe38-2402-837c-5d88-d476-18a0-67b4.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://b68b-2c0f-fe38-2402-837c-5d88-d476-18a0-67b4.ngrok.io/tou.html"
   },
   "name": {
     "short": "DevSecOps Bot",
@@ -65,7 +65,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "508d-2c0f-fe38-2402-837c-5d88-d476-18a0-67b4.ngrok.io"
+    "b68b-2c0f-fe38-2402-837c-5d88-d476-18a0-67b4.ngrok.io"
   ],
   "showLoadingIndicator": true
 }

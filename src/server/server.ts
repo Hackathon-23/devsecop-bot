@@ -20,7 +20,7 @@ import * as allComponents from "./TeamsAppsComponents";
 
 // Create the Express webserver
 const express = Express();
-const port = process.env.port || process.env.PORT || 3007;
+const port = process.env.port || process.env.PORT || 8080;
 
 // Inject the raw request body onto the request object
 express.use(Express.json({

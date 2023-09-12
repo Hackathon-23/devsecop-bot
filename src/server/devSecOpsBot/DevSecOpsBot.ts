@@ -61,7 +61,7 @@ export class DevSecOpsBot extends DialogBot {
                 const message = MessageFactory.text("This will be the first message in a new thread");
                 let text = TurnContext.removeRecipientMention(context.activity);
                 text = text.toLowerCase();
-                const newConversation = await this.createConversationInChannel(context, channelId, message);
+                const newConversation = await this.teamsCreateConversation(context, message);
                 // const newConversation = await this.createConversationInChannel(context, channelId, message);
             }
             await next();

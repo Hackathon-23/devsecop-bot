@@ -46,7 +46,7 @@ Configuration is stored in the `.env` file.
 
 ## Debug and test locally
 
-To debug and test the solution locally you use the `serve` Gulp task. This will first build the app and then start a local web server on port 3007, where you can test your Tabs, Bots or other extensions. Also this command will rebuild the App if you change any file in the `/src` directory.
+To debug and test the solution locally you use the `serve` Gulp task. This will first build the app and then start a local web server on port 8080, where you can test your Tabs, Bots or other extensions. Also this command will rebuild the App if you change any file in the `/src` directory.
 
 ``` bash
 gulp serve
