@@ -1,0 +1,71 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "3fe26af0-510a-11ee-b51e-1367c367e6d2",
+  "version": "0.0.2",
+  "packageName": "devsecopsbot",
+  "developer": {
+    "name": "Safaricom PLC",
+    "websiteUrl": "https://508d-2c0f-fe38-2402-837c-5d88-d476-18a0-67b4.ngrok.io",
+    "privacyUrl": "https://508d-2c0f-fe38-2402-837c-5d88-d476-18a0-67b4.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://508d-2c0f-fe38-2402-837c-5d88-d476-18a0-67b4.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "DevSecOps Bot",
+    "full": "DevSecOps Bot"
+  },
+  "description": {
+    "short": "DevSecOps Bot if your co-dev",
+    "full": "DevSecOps Bot unlocks your productivity by helping you handle your PRs and PR comments all within MicrosoftTeams."
+  },
+  "icons": {
+    "outline": "icon-color.png",
+    "color": "icon-outline.png"
+  },
+  "accentColor": "#52b64a",
+  "configurableTabs": [],
+  "staticTabs": [],
+  "bots": [
+    {
+      "botId": "103e4216-0f64-4722-aa2a-c7b649caca79",
+      "needsChannelSelector": true,
+      "isNotificationOnly": false,
+      "scopes": [
+        "team",
+        "personal"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "team",
+            "personal"
+          ],
+          "commands": [
+            {
+              "title": "Help",
+              "description": "Shows help information"
+            },
+            {
+              "title": "Who am I?",
+              "description": "Shows information about your Teams user"
+            },
+            {
+              "title": "Mention me",
+              "description": "Let the bot @mention you"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "508d-2c0f-fe38-2402-837c-5d88-d476-18a0-67b4.ngrok.io"
+  ],
+  "showLoadingIndicator": true
+}

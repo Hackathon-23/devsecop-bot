@@ -1,0 +1,9 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "Safaricom PLC"
+    },
+    "libraryName": "devSecOpsBot",
+    "generator-version": "4.1.0"
+  }
+}
